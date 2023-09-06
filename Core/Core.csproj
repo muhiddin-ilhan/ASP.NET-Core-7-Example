@@ -26,6 +26,10 @@
     <None Remove="Utilities\Security\JWT\" />
     <None Remove="Extensions\" />
     <None Remove="Utilities\IoC\" />
+    <None Remove="DependencyResolvers\" />
+    <None Remove="CrossCuttingConcerns\Caching\" />
+    <None Remove="CrossCuttingConcerns\Caching\Microsoft\" />
+    <None Remove="Aspects\Autofac\Caching\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataAccess\" />
@@ -47,6 +51,10 @@
     <Folder Include="Utilities\Security\JWT\" />
     <Folder Include="Extensions\" />
     <Folder Include="Utilities\IoC\" />
+    <Folder Include="DependencyResolvers\" />
+    <Folder Include="CrossCuttingConcerns\Caching\" />
+    <Folder Include="CrossCuttingConcerns\Caching\Microsoft\" />
+    <Folder Include="Aspects\Autofac\Caching\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.10" />
@@ -56,5 +64,6 @@
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="7.0.4" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.32.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
   </ItemGroup>
 </Project>
