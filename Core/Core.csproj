@@ -30,6 +30,8 @@
     <None Remove="CrossCuttingConcerns\Caching\" />
     <None Remove="CrossCuttingConcerns\Caching\Microsoft\" />
     <None Remove="Aspects\Autofac\Caching\" />
+    <None Remove="Aspects\Autofac\Transaction\" />
+    <None Remove="Aspects\Autofac\Performance\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataAccess\" />
@@ -55,6 +57,8 @@
     <Folder Include="CrossCuttingConcerns\Caching\" />
     <Folder Include="CrossCuttingConcerns\Caching\Microsoft\" />
     <Folder Include="Aspects\Autofac\Caching\" />
+    <Folder Include="Aspects\Autofac\Transaction\" />
+    <Folder Include="Aspects\Autofac\Performance\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.10" />
